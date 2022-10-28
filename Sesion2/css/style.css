@@ -1,0 +1,58 @@
+/* Selectores de etiquetas */
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:lightcoral;
+    text-align: center
+}
+
+p{
+    color: blue
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+} 
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li{
+    padding: 10px;
+}
+
+nav li:hover{
+    background-color: black;
+}
+
+
+/* Selectores de clases */
+.fondo{
+    background-color: brown;
+}
+
+.principal{
+    display: flex;
+}
+
+.principal img{
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+}
+
+.fuente{
+    font-size: 20px;
+}
+
+
+
+/* Selectores de ID */
+#miId{
+    text-align: center;
+}
