@@ -1,154 +1,206 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav{
-    display: flex;
-    height: 50px;
-    background-color: #7E7ACE;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
+nav {
+  display: flex;
+  background-color: #7e7ace;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
-nav ul{
-    display: flex;
+nav ul {
+  display: flex;
 }
 
-nav li{
-    list-style: none;
-    padding: 0px 20px;
+nav li {
+  list-style: none;
+  padding: 0px 20px;
 }
 
-nav a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }
 
-nav a:hover{
-    color: #CACE7A
+nav a:hover {
+  color: #cace7a;
 }
 
-.nav-logo{
-   width: 30px; 
-   height: 30px;
-   margin-top: 10px;
-   margin-left: 50px;
+.nav-logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 
-.header-info span{
-    font-family: 'Rubik Dirt', cursive;
-    font-size: 4rem;
-    color: #2F2E4D
+.header-info span {
+  font-family: "Rubik Dirt", cursive;
+  font-size: 4rem;
+  color: #2f2e4d;
 }
 
-.header-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header-info img{
-    width: 50%;
-    margin-top: 20px;
+.header-info img {
+  width: 50%;
+  margin-top: 20px;
 }
 
-.header-info a{
-    text-decoration: none;
-    color: #2F2E4D;
-    background-color: #CACE7A;
-    font-size: 1.5rem;
-    padding: 7px;
-    border-radius: 5px;
-    font-weight: bold;
+.header-info a {
+  text-decoration: none;
+  color: #2f2e4d;
+  background-color: #cace7a;
+  font-size: 1.5rem;
+  padding: 7px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
-main{
-    max-height: 50%;
+main {
+  max-height: 50%;
 }
 
-.allies{
-    border: 1px #7b7b7d83 solid;
-
+.allies {
+  border: 1px #7b7b7d83 solid;
 }
 
-.allies h1{
-    text-align: center;
-    font-size: 1.5rem;
-    color: #2F2E4D;
+.allies h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #2f2e4d;
 }
 
-.allies-images{
-    display: flex;
-    justify-content: center;
+.allies-images {
+  display: flex;
+  justify-content: center;
 }
 
-.allies-images img{
-    border-radius: 50%;
-    border: #CACE7A 1px solid;
-    width: 9%;
-    margin-right: 20px;
-    margin-bottom: 20px;
+.allies-images img {
+  border-radius: 50%;
+  border: #cace7a 1px solid;
+  width: 9%;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
-.about{
-    height: 400px;
-    background-image: url('/images/gato-acostado.jpg');
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-}
-
-.about p{
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.514);
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    text-align: center;
+.about {
+  height: 400px;
+  background-image: url("/images/gato-acostado.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
 }
 
-footer{
-    max-height: 20%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: #100F10; 
-    color: #fff;
+.about p {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.514);
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-footer h5{
-    color: #aaad7a;
+footer {
+  max-height: 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #100f10;
+  color: #fff;
 }
 
-.one{
-    margin-left: 20px;
+footer h5 {
+  color: #aaad7a;
+}
+
+.one {
+  margin-left: 20px;
 }
 
 .three img {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
-.videos video{
-    width: 40%;
-    margin-left: 20px ;
-    margin-bottom: 20px;
+.videos video {
+  width: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
-.videos-gatos{
-    display: flex;
-    justify-content: center;
+.videos-gatos {
+  display: flex;
+  justify-content: center;
 }
 
-.videos h2{
+.videos h2 {
+  text-align: center;
+  color: #2f2e4d;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.card {
+  border: 1px rgba(0, 0, 0, 0.378) solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 350px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact input,
+textarea,
+select {
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #7b7b7d83;
+}
+
+.contact button {
+  background-color: #cace7a;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #7b7b7d83;
+  margin-bottom: 15px;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.products h1{
     text-align: center;
-    color: #2F2E4D;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 80px;
+}
+
+.contact h1{
+    text-align: center;
+    margin-top: 80px;
 }
