@@ -204,3 +204,41 @@ select {
     text-align: center;
     margin-top: 80px;
 }
+
+@media (max-width: 1080px) {
+  .header-info span {    
+    font-size: 2rem;   
+  }
+  .header-info{
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+  .two iframe{
+    width: 70%;
+    height: 40%;
+  }
+  .header-info span {    
+    font-size: 1rem;     
+  }
+  .header-info a {    
+    font-size: 0.8rem;    
+  }
+  .header-info p{
+    font-size: 0.7rem;
+  }
+  .header-info{
+    margin-top: 45px;
+    padding: 0 10px;
+  }
+  
+  nav a {    
+    font-size: 12px;
+  }
+
+  nav li {    
+    padding: 0px 10px;
+  }
+  
+}

@@ -1,0 +1,16 @@
+1. crear el repositorio
+2. clonar el repositorio
+   git clone url_repo
+3. Pegar los archivos en el repo local, 
+   que se van a subir la repo github.
+4. Abrir el repo local con vsCode.
+5. Abrir terminal de vsCode.
+6. Escribir en la terminal git add .
+7. Escribir en la terminal git commit -m "mensaje"
+8. Escribir en la terminal git push
+9. Ir al menú settings del repo github
+10. Buscar la opción Pages y habilitar 
+    en la opción "Branch" la rama main 
+   y dar clic en save.
+11. Dirigirse al menú actions y abrir
+    pages build and deployment para encontrar la url
